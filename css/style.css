@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #F5FAFF;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.top{
+    text-align: center; /* centrerer indholdet */
+    padding: 10px;      /* giver lidt plads rundt om */
+    background-color: #81bff2a2;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    text-align: center;
+    flex-direction: column; /* lodret menu */
+    gap: 5px;               /* mindre afstand mellem links */
+    padding: 5px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.menu {
+  display: flex;
+  gap: 15px; /* afstand mellem links */
+  list-style-type: none;
+  color: #A3C4F3;
+
+}
+
+ul{
+    padding-left: 1.5em;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.forsidefoto{
+    width: 100%;
+    height: auto; /* beholder proportioner */
+    display: block;
+}
+
+button{
+  background-color: #81bff2;
+  padding: 7px 15px;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  font-size: 0.9em;
+}
+button:hover{
+    background-color: #297bedbf;
+    color: white;
+    transition: 0.5s;
+}
+
+.billede-container {
+  position: relative;  /* gør at overlay kan placeres ovenpå */
+  width: 100%;
+}
+
+.forsidefoto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;  /* ligger ovenpå billedet */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.3); /* let gennemsigtig mørk baggrund */
+  color: white;
+}
+
+.pile {
+  position: absolute;
+  top: 50%; /* midt på billedet */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%); /* centrerer dem perfekt lodret */
+  padding: 0 15px;
+  font-size: 1.5em;
+}
+
+.pil {
+  cursor: pointer;
+  color: white;
+  user-select: none;
+}
+
+.gruppe, .stress{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 2em auto; /* centrerer billedet og tilføjer lodret margin */
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: #6d4cae;
+    transition: 0.5s;
+}
+
+p{
+    text-align: center;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    margin: 1em;
+}
+
+footer{
+    background-color: #81bff2a2;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.7em;
+    columns: 3;
+    column-gap: 10%;
+    margin-top: 2em;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.insta img{
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5em;
+   
+}
+
+.insta img:hover{
+    color: #6d4cae;
+    transition: 0.5s;
+}
+
+/*Kontaktside*/ 
+h1.kontakt-os{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.telefonnr, .chat {
+    font-size: 0.9em;
+    color: blue;
+    text-align: center;
+    display: block;
+}
+
+input, textarea { 
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.send{
+    background-color: rgb(234, 236, 237);
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.kontakt-tekst{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.kontaktform{
+  border: 1px solid #000; /* kant */
+  background-color: #81bff2a2;
+  padding: 20px;            /* indvendig plads */
+  border-radius: 10px;      /* runde hjørner */
+  width: 300px;             /* bredde på boksen */
+  margin: 0 auto;           /* centrerer boksen */
+  margin-top: 2em;
+}
+
+.kontaktformular input:hover,.kontaktformular textarea:hover, .send:hover {
+  background-color: #81bff2a2; /* baggrundsfarve når musen er over */
+}
+
+/*Gode råd side*/
+
+.goderåd{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.kategori-container {
+  display: grid;
+  grid-template-columns: 1fr ; /* 1 kolonne */
+  gap: 20px;
+  max-width: 800px;
+  text-align: center;
+  margin: auto 2em;
+}
+
+.kategori-boks img {
+  width: 100%;
+  height: 200px;       /* fast højde */
+  object-fit: cover;   /* beskærer billedet for at fylde boksen */
+}
+
+.kategori-boks a {
+  margin-top: 10px;
+  color: black;
+}
+
+.kategori-boks a:hover {
+  color: #036af9;
+  transition: 0.5s;
+}
+
+
+/* DESKTOP-LAYOUT */
+@media (min-width: 768px){
+    .logo{
+        height: 200px; /* større logo til desktop */
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    nav {
+        flex-direction: row; /* horisontal menu på desktop */
+        justify-content: center;
+    }
+
+    .menu {
+        flex-direction: row;
+        gap: 150px; /* afstand mellem links som før */
+    }
+
+    nav a{
+        font-size: 20px; /* større tekst på desktop */
+    }
+
+    .forsidefoto{
+        width: 100%; /* fuld bredde til desktop */
+    }
+
+    .forside-tekst{
+    font-size: 2.5em;
+    margin-block-start: 1em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5em;
+    }
+
+    .button{
+    font-size: 1.2em; /* større knaptekst */
+    padding: 10px 20px; /* større knap */
+   }
+
+    .pile {
+    font-size: 4em; /* større pile på desktop */
+    }
+
+    .overlay button {
+    font-size: 3em;   /* større tekst */
+    padding: 15px 90px; /* gør knappen større */
+    border-radius: 30px; /* rundere hjørner */
+    }
+
+    .alene, .gruppe {
+        width: 75%; /* mindre bredde til desktop */
+    }
+
+    p {
+    font-size: 2em; /* større brødtekst */
+    margin: 1em 4.5em; /* mere margin til desktop */
+    }
+
+    .footer-container {
+        flex-direction: row; /* kolonner ved siden af hinanden */
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .footer-col {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    h1.kontakt-os{
+        font-size: 4em;
+    }
+
+    .telefonnr, .chat {
+        font-size: 1.5em;
+    }
+
+    .kontaktform {
+        width: 700px; /* bredere formular på desktop */
+    }
+
+    .kontakt-tekst{
+        font-size: 2em;
+    }
+
+    .send {
+        font-size: 22px;
+    }
+
+    .kategori-container {
+    grid-template-columns: repeat(2, auto); /* 2 kolonner */
+    gap: 60px;                               /* afstand mellem kolonner */
+    justify-content: center;                 /* centrerer */
+    margin: 4em auto;
+    }
+
+    .kolonne {
+    display: flex;
+    flex-direction: column;                 
+    gap: 20px;
+    align-items: center;
+    }
+
+    .gode-råd-billede{
+    width: 100%;
+    display: block;
+    }
+
+    .goderåd{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    }  
+}
