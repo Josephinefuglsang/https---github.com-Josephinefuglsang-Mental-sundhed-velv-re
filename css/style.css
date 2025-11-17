@@ -333,6 +333,10 @@ input, textarea {
     margin: 1em 4.5em; /* mere margin til desktop */
     }
 
+    .p-kontaktos{
+        font-size: 1.7em;
+    }
+
     .footer-container {
         flex-direction: row; /* kolonner ved siden af hinanden */
         justify-content: space-around;
