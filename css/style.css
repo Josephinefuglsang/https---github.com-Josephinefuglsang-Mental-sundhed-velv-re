@@ -391,4 +391,8 @@ input, textarea {
     margin-bottom: 1em;
     margin-top: 1em;
     }  
+
+    .tekst-billede{
+    font-size: 1.3em;  
+    }
 }
