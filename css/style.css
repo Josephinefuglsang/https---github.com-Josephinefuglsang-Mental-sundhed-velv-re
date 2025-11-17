@@ -21,6 +21,17 @@ body{
     width: auto;
 }
 
+#search {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 3px;
+  border-radius: 20px; /*runde hjørner*/
+  font-size: 12px;
+  width: 75px;  /* gør feltet mindre */
+  height: 20px;
+}
+
 h1{
     text-align: center;
     font-size: 1.5em;
@@ -269,6 +280,12 @@ input, textarea {
     nav {
         flex-direction: row; /* horisontal menu på desktop */
         justify-content: center;
+    }
+
+    #search {
+        font-size: 20px;
+        width: 250px;  /* gør feltet mindre */
+        height: 40px;
     }
 
     .menu {
