@@ -22,14 +22,14 @@ body{
 }
 
 #search {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 3px;
-  border-radius: 20px; /*runde hjørner*/
-  font-size: 12px;
-  width: 75px;  /* gør feltet mindre */
-  height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 3px;
+    border-radius: 20px; /*runde hjørner*/
+    font-size: 12px;
+    width: 75px;  /* gør feltet mindre */
+    height: 20px;
 }
 
 h1{
@@ -51,10 +51,10 @@ nav {
 }
 
 .menu {
-  display: flex;
-  gap: 15px; /* afstand mellem links */
-  list-style-type: none;
-  color: #A3C4F3;
+    display: flex;
+    gap: 15px; /* afstand mellem links */
+    list-style-type: none;
+    color: #A3C4F3;
 }
 
 ul{
@@ -74,11 +74,11 @@ nav a{
 }
 
 button{
-  background-color: #81bff2;
-  padding: 7px 15px;
-  border-radius: 20px;
-  border-color: #FFFFFF;
-  font-size: 0.9em;
+    background-color: #81bff2;
+    padding: 7px 15px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    font-size: 0.9em;
 }
 button:hover{
     background-color: #297bedbf;
@@ -87,46 +87,46 @@ button:hover{
 }
 
 .billede-container {
-  position: relative;  /* gør at overlay kan placeres ovenpå */
-  width: 100%;
+    position: relative;  /* gør at overlay kan placeres ovenpå */
+    width: 100%;
 }
 
 .forsidefoto {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .overlay {
-  position: absolute;  /* ligger ovenpå billedet */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0,0,0,0.3); /* let gennemsigtig mørk baggrund */
-  color: white;
+    position: absolute;  /* ligger ovenpå billedet */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.3); /* let gennemsigtig mørk baggrund */
+    color: white;
 }
 
 .pile {
-  position: absolute;
-  top: 50%; /* midt på billedet */
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%); /* centrerer dem perfekt lodret */
-  padding: 0 15px;
-  font-size: 1.5em;
+    position: absolute;
+    top: 50%; /* midt på billedet */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%); /* centrerer dem perfekt lodret */
+    padding: 0 15px;
+    font-size: 1.5em;
 }
 
 .pil {
-  cursor: pointer;
-  color: white;
-  user-select: none;
+    cursor: pointer;
+    color: white;
+    user-select: none;
 }
 
 .gruppe, .stress{
@@ -169,8 +169,8 @@ footer{
 }
 
 .footer-col ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .insta img{
@@ -202,9 +202,9 @@ h1.kontakt-os{
 }
 
 input, textarea { 
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 .send{
@@ -220,17 +220,17 @@ input, textarea {
 }
 
 .kontaktform{
-  border: 1px solid #000; /* kant rundt om */
-  background-color: #81bff2a2;
-  padding: 20px;            
-  border-radius: 10px;      /* runde hjørner */
-  width: 300px;             /* bredde på boksen */
-  margin: 0 auto;           /* centrerer boksen */
-  margin-top: 2em;
+    border: 1px solid #000; /* kant rundt om */
+    background-color: #81bff2a2;
+    padding: 20px;            
+    border-radius: 10px;      /* runde hjørner */
+    width: 300px;             /* bredde på boksen */
+    margin: 0 auto;           /* centrerer boksen */
+    margin-top: 2em;
 }
 
 .kontaktformular input:hover,.kontaktformular textarea:hover, .send:hover {
-  background-color: #81bff2a2; /* baggrundsfarve når musen køre over */
+    background-color: #81bff2a2; /* baggrundsfarve når musen køre over */
 }
 
 /*Gode råd side*/
@@ -241,28 +241,28 @@ input, textarea {
 }
 
 .kategori-container {
-  display: grid;
-  grid-template-columns: 1fr ; /* 1 kolonne */
-  gap: 20px;
-  max-width: 800px;
-  text-align: center;
-  margin: auto 2em;
+    display: grid;
+    grid-template-columns: 1fr ; /* 1 kolonne */
+    gap: 20px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto 2em;
 }
 
 .kategori-boks img {
-  width: 100%;
-  height: 200px;       /* fast højde */
-  object-fit: cover;   
+    width: 100%;
+    height: 200px;       /* fast højde */
+    object-fit: cover;   
 }
 
 .kategori-boks a {
-  margin-top: 10px;
-  color: black;
+    margin-top: 10px;
+    color: black;
 }
 
 .kategori-boks a:hover {
-  color: #036af9;
-  transition: 0.5s;
+    color: #036af9;
+    transition: 0.5s;
 }
 
 
