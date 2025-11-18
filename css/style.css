@@ -252,7 +252,7 @@ input, textarea {
 .kategori-boks img {
   width: 100%;
   height: 200px;       /* fast højde */
-  object-fit: cover;   /* beskærer billedet for at fylde boksen */
+  object-fit: cover;   
 }
 
 .kategori-boks a {
@@ -277,8 +277,8 @@ input, textarea {
     }
 
     nav {
-        flex-direction: row; /* horisontal menu på desktop */
-        justify-content: center;
+        flex-direction: row; /* vandret menu */
+        justify-content: center; /* centrerer menuen */
     }
 
     #search {
@@ -289,7 +289,7 @@ input, textarea {
 
     .menu {
         flex-direction: row;
-        gap: 150px; /* afstand mellem links som før */
+        gap: 150px; /* større afstand mellem links */
     }
 
     nav a{
@@ -301,26 +301,26 @@ input, textarea {
     }
 
     .forside-tekst{
-    font-size: 2.5em;
-    margin-block-start: 1em;
-    text-align: center;
-    color: #FFFFFF;
-    margin-bottom: 5em;
+        font-size: 2.5em;
+        margin-block-start: 1em;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 5em;
     }
 
     .button{
-    font-size: 1.2em; /* større knaptekst */
-    padding: 10px 20px; /* større knap */
-   }
+        font-size: 1.2em; /* større knaptekst */
+        padding: 10px 20px; /* større knap */
+    }
 
     .pile {
-    font-size: 4em; /* større pile på desktop */
+        font-size: 4em; /* større pile på desktop */
     }
 
     .overlay button {
-    font-size: 3em;   /* større tekst */
-    padding: 15px 90px; /* gør knappen større */
-    border-radius: 30px; /* rundere hjørner */
+        font-size: 3em;   /* større tekst */
+        padding: 15px 90px; /* gør knappen større */
+        border-radius: 30px; /* rundere hjørner */
     }
 
     .alene, .gruppe {
@@ -328,8 +328,8 @@ input, textarea {
     }
 
     p {
-    font-size: 2em; /* større brødtekst */
-    margin: 1em 4.5em; /* mere margin til desktop */
+        font-size: 2em; /* større brødtekst */
+        margin: 1em 4.5em; /* mere margin til desktop */
     }
 
     .p-kontaktos{
@@ -368,30 +368,30 @@ input, textarea {
     }
 
     .kategori-container {
-    grid-template-columns: repeat(2, auto); /* 2 kolonner */
-    gap: 60px;                               /* afstand mellem kolonner */
-    justify-content: center;                 /* centrerer */
-    margin: 4em auto;
+        grid-template-columns: repeat(2, auto); /* 2 kolonner */
+        gap: 60px;                               /* afstand mellem kolonner */
+        justify-content: center;                 /* centrerer */
+        margin: 4em auto;
     }
 
     .kolonne {
-    display: flex;
-    flex-direction: column;                 
-    gap: 20px;
-    align-items: center;
+        display: flex;
+        flex-direction: column;                 
+        gap: 20px;
+        align-items: center;
     }
 
     .gode-råd-billede{
-    width: 100%;
-    display: block;
+        width: 100%;
+        display: block;
     }
 
     .goderåd{
-    margin-bottom: 1em;
-    margin-top: 1em;
+        margin-bottom: 1em;
+        margin-top: 1em;
     }  
 
     .tekst-billede{
-    font-size: 1.3em;  
+        font-size: 1.3em;  
     }
 }
