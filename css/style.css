@@ -55,7 +55,6 @@ nav {
   gap: 15px; /* afstand mellem links */
   list-style-type: none;
   color: #A3C4F3;
-
 }
 
 ul{
@@ -221,9 +220,9 @@ input, textarea {
 }
 
 .kontaktform{
-  border: 1px solid #000; /* kant */
+  border: 1px solid #000; /* kant rundt om */
   background-color: #81bff2a2;
-  padding: 20px;            /* indvendig plads */
+  padding: 20px;            
   border-radius: 10px;      /* runde hjørner */
   width: 300px;             /* bredde på boksen */
   margin: 0 auto;           /* centrerer boksen */
@@ -231,7 +230,7 @@ input, textarea {
 }
 
 .kontaktformular input:hover,.kontaktformular textarea:hover, .send:hover {
-  background-color: #81bff2a2; /* baggrundsfarve når musen er over */
+  background-color: #81bff2a2; /* baggrundsfarve når musen køre over */
 }
 
 /*Gode råd side*/
