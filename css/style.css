@@ -80,6 +80,7 @@ button{
     border-color: #FFFFFF;
     font-size: 0.9em;
 }
+
 button:hover{
     background-color: #297bedbf;
     color: white;
@@ -185,6 +186,7 @@ footer{
     transition: 0.5s;
 }
 
+
 /*Kontaktside*/ 
 h1.kontakt-os{
     text-align: center;
@@ -233,8 +235,8 @@ input, textarea {
     background-color: #81bff2a2; /* baggrundsfarve når musen køre over */
 }
 
-/*Gode råd side*/
 
+/*Gode råd side*/
 .goderåd{
     margin-bottom: 1em;
     margin-top: 1em;
