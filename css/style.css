@@ -286,12 +286,6 @@ input, textarea {
         flex-direction: row; /* vandret menu */
         justify-content: center; /* centrerer menuen */
     }
-    
-  .undertekst{
-        font-size: 1.2em;
-        margin-bottom: 15em;
-        margin-top: -10em;
-    }
 
     .menu {
         flex-direction: row;
@@ -310,13 +304,14 @@ input, textarea {
         font-size: 2.5em;
         text-align: center;
         color: #FFFFFF;
-        margin-bottom: em;
+        margin-bottom: 0em;
     }
 
     .undertekst{
-        font-size: 1.2em;
-        margin-bottom: 15em;
-        margin-top: 1em;
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 20em;
     }
 
     .button{
