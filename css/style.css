@@ -26,7 +26,6 @@ h1{
     font-weight: bold;
 }
 
-
 nav {
     display: flex;
     text-align: center;
@@ -155,7 +154,6 @@ p{
     margin-bottom: 1em;
     margin: 1em;
 }
-
 
 footer{
     background-color: #81bff2a2;
@@ -368,8 +366,10 @@ input, textarea {
     .kontaktform {
         width: 700px; /* bredere formular på desktop */
     }
-
-    
+    .kontakttekst{
+        font-size: 1.8em; 
+        margin: 1em 1em;
+    }
 
     .send {
         font-size: 22px;
