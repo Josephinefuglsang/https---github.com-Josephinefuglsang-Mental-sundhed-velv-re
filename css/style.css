@@ -219,7 +219,7 @@ input, textarea {
     padding: 10px 20px;
 }
 
-.kontakt-tekst{
+.kontakttekst{
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 1em;
@@ -369,10 +369,7 @@ input, textarea {
         width: 700px; /* bredere formular på desktop */
     }
 
-    .kontakt-tekst{
-        font-size: 2em;
-        margin: 0.7em 1em;
-    }
+    
 
     .send {
         font-size: 22px;
