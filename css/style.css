@@ -6,7 +6,6 @@
 
 body{
     background-color: #F5FAFF;
-    color: #000000;
     line-height: 1.6;
 }
 
@@ -25,7 +24,6 @@ h1{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -61,6 +59,7 @@ nav a{
     height: auto; /* beholder proportioner */
     display: block;
 }
+
 .forside-tekst{
     font-size: 1em;
     margin-block-start: 0.5em;
@@ -157,6 +156,7 @@ p{
     margin: 1em;
 }
 
+
 footer{
     background-color: #81bff2a2;
     color: #000000;
@@ -179,8 +179,8 @@ footer{
 }
 
 .insta img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     margin-top: 0.5em;
    
 }
@@ -308,10 +308,10 @@ input, textarea {
     }
 
     .undertekst{
-        font-size: 15px;
+        font-size: 19px;
         text-align: center;
         color: #FFFFFF;
-        margin-bottom: 20em;
+        margin-bottom: 15em;
     }
 
     .button{
@@ -337,9 +337,9 @@ input, textarea {
         width: 75%; /* mindre bredde til desktop */
     }
 
-    p {
+    p{
         font-size: 2em; /* større brødtekst */
-        margin: 1em 4.5em; /* mere margin til desktop */
+        margin: 1em 9.1em; /* mere margin til desktop */
     }
 
     .p-kontaktos{
@@ -403,5 +403,11 @@ input, textarea {
 
     .tekst-billede{
         font-size: 1.3em;  
+    }
+
+    .insta img{
+        width: 25px;
+        height: 25px;
+        margin-top: 0.5em;
     }
 }
