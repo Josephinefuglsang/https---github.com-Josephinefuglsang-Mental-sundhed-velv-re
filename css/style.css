@@ -61,13 +61,20 @@ nav a{
     height: auto; /* beholder proportioner */
     display: block;
 }
-
-.undertekst{
+.forside-tekst{
     font-size: 1em;
     margin-block-start: 0.5em;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 3em;
+    margin-bottom: 0;
+}
+
+.undertekst{
+    font-size: 8px;
+    margin-block-start: 0.5em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 5em;
 }
 
 button{
@@ -301,10 +308,15 @@ input, textarea {
 
     .forside-tekst{
         font-size: 2.5em;
-        margin-block-start: 1em;
         text-align: center;
         color: #FFFFFF;
-        margin-bottom: 5em;
+        margin-bottom: em;
+    }
+
+    .undertekst{
+        font-size: 1.2em;
+        margin-bottom: 15em;
+        margin-top: 1em;
     }
 
     .button{
