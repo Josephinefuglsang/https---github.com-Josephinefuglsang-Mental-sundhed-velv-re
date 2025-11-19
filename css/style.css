@@ -62,6 +62,14 @@ nav a{
     display: block;
 }
 
+.undertekst{
+    font-size: 1em;
+    margin-block-start: 0.5em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3em;
+}
+
 button{
     background-color: #81bff2;
     padding: 7px 15px;
@@ -271,11 +279,11 @@ input, textarea {
         flex-direction: row; /* vandret menu */
         justify-content: center; /* centrerer menuen */
     }
-
-    #search {
-        font-size: 20px;
-        width: 250px;  /* gør feltet mindre */
-        height: 40px;
+    
+  .undertekst{
+        font-size: 1.2em;
+        margin-bottom: 15em;
+        margin-top: -10em;
     }
 
     .menu {
@@ -296,7 +304,7 @@ input, textarea {
         margin-block-start: 1em;
         text-align: center;
         color: #FFFFFF;
-        margin-bottom: 5em;  
+        margin-bottom: 5em;
     }
 
     .button{
@@ -329,12 +337,6 @@ input, textarea {
 
     .p-kontaktos{
         font-size: 1.7em;
-    }
-
-    .undertekst{
-        font-size: 1.2em;
-        margin-bottom: 15em;
-        margin-top: -10em;
     }
 
     .footer-container {
