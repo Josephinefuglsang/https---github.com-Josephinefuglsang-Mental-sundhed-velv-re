@@ -314,7 +314,11 @@ input, textarea {
         border-radius: 30px; /* rundere hjørner */
     }
 
-    .alene, .gruppe {
+    .stress, .gruppe{
+        width: 55%; /* mindre bredde til desktop */
+    }
+
+    .alene{
         width: 75%; /* mindre bredde til desktop */
     }
 
