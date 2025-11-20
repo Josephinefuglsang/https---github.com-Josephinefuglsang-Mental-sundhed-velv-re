@@ -55,7 +55,7 @@ nav a{
 
 .forsidefoto{
     width: 100%;
-    height: auto; /* beholder proportioner */
+    height: auto; 
     display: block;
 }
 
@@ -116,12 +116,12 @@ button:hover{
 
 .pile {
     position: absolute;
-    top: 50%; /* midt på billedet */
+    top: 50%; 
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    transform: translateY(-50%); /* centrerer dem perfekt lodret */
+    transform: translateY(-50%); /* centrerer dem lodret */
     padding: 0 15px;
     font-size: 1.5em;
 }
@@ -255,7 +255,7 @@ input, textarea {
 
 .kategori-boks img {
     width: 100%;
-    height: 200px;       /* fast højde */
+    height: 200px;       
     object-fit: cover;   
 }
 
@@ -364,7 +364,7 @@ input, textarea {
     }
 
     .kontaktform {
-        width: 700px; /* bredere formular på desktop */
+        width: 700px; /* bredere på desktop */
     }
     .kontakttekst{
         font-size: 1.8em; 
